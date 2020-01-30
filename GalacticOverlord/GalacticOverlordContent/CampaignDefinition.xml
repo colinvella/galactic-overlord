@@ -1,0 +1,2043 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="GalacticOverlord.Pipeline.CampaignDefinition">
+    <Levels>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>At last, the time has come! I, Pang the Pitiless, shall no longer be a petty ruler of some nameless planet!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Krantor, sire...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Uhh, what?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The name of our planet, is Krantor, sire...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>No, what I meant is.. [sigh] whatever... General Soggy, is the interplanetary battle fleet ready?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Yes sire, the fleet is waiting for your signal to commence the attack.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Very well then, here's a dimsmissive wave of my hand. How's that for a signal?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Actually sire, we have built this new battle command interface so the fleet may do your lordship's bidding more effectively.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>That's one step short of having me pilot the things myself! Fine, what is it I have to do then?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, if you care to look at the holodisplay, the green circle is Krantor, whilst the red one is our target Aedis. To launch the attack, tap the green planet, followed by the red planet.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Sounds easy enough, let's get to it then!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Newbie</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Krantor</Name>
+            <Position>140 600</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>60</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Aedis</Name>
+            <Position>340 200</Position>
+            <Rotation>-30</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Haha! Now that was fun! Someone ought to make a hologame based on this interface of yours.</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Actually sire, we did adapt a hologame to build the interface, after its developer was executed.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Poor graphics and cliche storyline?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The people's court of holovid culture judged the game as too violent and had to set an example.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Fair enough I suppose. But let's get back to the interface. So, what are the numbers on the planets?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>They represent the planet's military assets. Larger planets have higher production rates due to increased resource availability.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>We should focus our attacks on the larger planets then. And what about the grey planets?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Grey planets are neutral and tend to maintain a constant military arsenal for defense purposes.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Then we should conquer such planets early on to gain an advantage in numbers. Enough tutoring for now, time to practice!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Newbie</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Celzamor</Name>
+            <Position>140 600</Position>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>40</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Fartover</Name>
+            <Position>340 600</Position>
+            <Rotation>-15</Rotation>
+            <Radius>50</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Infinia</Name>
+            <Position>240 200</Position>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Victory is mine once again! Well done for this great device Soggy!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>It is all due to your unparalleled leadership sire.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>No no, really, you've done a great job there, General!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>You are too kind sire.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Well yes I suppose deep down I am a bit of a softy. Anyhow.. what about launching attacks from many planets at once? All this tapping will surely get out of hand?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>You may drag your finger across several of our planets and then drag on to a target for a concerted attack.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Excellent! On to the next battle then. Is everything ready?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Yes sire, we have fleets stationed around the Zydros system's four planets. The rebels are bunkered deep within planet Xalium.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Ahh.. the perfect candidate for a concerted attack!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed sire, may your glorious finger guide us to a swift victory!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Newbie</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Zydros I</Name>
+            <Position>60 540</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Zydros II</Name>
+            <Position>100 600</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Zydros III</Name>
+            <Position>140 640</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Zydros IV</Name>
+            <Position>200 660</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xalium</Name>
+            <Position>360 320</Position>
+            <Radius>40</Radius>
+            <Population>20</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Those pathetic Xalians didn't even see us coming!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed sire.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>General, I couldn't help but notice that only part of a stationed fleet is launched on any given order.</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>An excellent observation sire! The battle interface is set to deploy 60% of the available fleet. The remaining 40% defend the planet in case of a surprise attack...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>It is a good strategy Soggy, but it is sometimes necessary to deploy more, or in some cases less. This setting is too rigid!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>I was coming to that sire. The icon at the bottom right of the display gives you access to the fleet deployment screen where you can vary the deployment ratio.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>That's better. Still, I disagree on the default setting! It should be set to deploy three fifths of the available fleet instead.</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Uhhh... yes sire, it shall be modified thusly.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Excellent! Now let's move on to the battle plans!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Yes sire, the Maglon star system consists of mostly neutral planets. Dare I suggest we concentrate on them first before taking down our target?</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>My thoughts exactly general. Prepare to launch!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Newbie</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Maglon I</Name>
+            <Position>160 440</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Maglon II</Name>
+            <Position>260 540</Position>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Maglon III</Name>
+            <Position>200 620</Position>
+            <Radius>30</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Maglon IV</Name>
+            <Position>320 320</Position>
+            <Radius>40</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Maglon V</Name>
+            <Position>260 240</Position>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>My lord, with your infallible leadership, we have taken over the Maglon system swiftly!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Ahh Soggy, what would you do without me?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>We would live meaningless lives sire, sitting around watching reality holoshows, the Luxurians and the Tentacle Girls of the Griznach Mansion.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Holovision isn't what it used to be. But enough idle chatting, it is now time to take on those smug Tarkians. Hmmph, they think that no one can stand their elite space navy!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>I humbly advise caution sire, the Tarkians are better equipped than anything we have encountered so far and they react quickly.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>General Soggy, if you weren't my concubine's cousin's uncle's daughter's second nephew's mother's adopted son, I would have your skrorzan glands ripped out for your insolence!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Please forgive my poor choice of words sire. I meant to say that the Tarkians believe they are mightier.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Fools! But we shall soon show them their place. Prepare for the attack!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Blue</Colour>
+            <Difficulty>Easy</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Tarkus I</Name>
+            <Position>360 240</Position>
+            <Radius>25</Radius>
+            <Population>10</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tarkus II</Name>
+            <Position>140 170</Position>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tarkus III</Name>
+            <Position>230 520</Position>
+            <Radius>30</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tarkus IV</Name>
+            <Position>120 520</Position>
+            <Radius>40</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tarkus V</Name>
+            <Position>340 620</Position>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>The Tarkian Navy is now just another chapter in the history of interstellar battles, specifically titled "Epic Losers", hahaha!!!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed sire, the Galactic Empire Eff-Tee-Double-You!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Seriously Soggy, this modern day holonet vernacular sounds odd coming from you...</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>My humble apologies sire, I am trying to keep up with the times.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>I can pull it off, coz I am 1337, but you my dear General, are a noob!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Owned, sire...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Now let's move on, the galaxy won't get conquered by itself now will it?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>No sire. Well, our next target are the Fallopian outposts within the Xenturi asteroid field.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>A dynamic battlefield... this is going to be interesting! Very well General, deploy the fleets!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Blue</Colour>
+            <Difficulty>Easy</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Xenturi I</Name>
+            <Position>360 440</Position>
+            <Velocity>50 80</Velocity>
+            <Radius>45</Radius>
+            <Population>20</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xenturi II</Name>
+            <Position>60 440</Position>
+            <Velocity>-40 20</Velocity>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xenturi III</Name>
+            <Position>260 120</Position>
+            <Velocity>50 100</Velocity>
+            <Radius>30</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xenturi IV</Name>
+            <Position>170 620</Position>
+            <Velocity>-30 -60</Velocity>
+            <Radius>40</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xenturi V</Name>
+            <Position>320 520</Position>
+            <Velocity>20 -40</Velocity>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, sire!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>What is it Soggy, I have not seen you this upset since you saw the pathetic finale of that holoseries... what was its name?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>You mean Misplaced, Sire?</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>That one. Anyhow, what's all the fuss about?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The Kabirians sire! We have just decrypted a subspace broadcast orginating from their capital planet. They plan a preemtpive strike on our military base on planet Jolf!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Good for them!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire?! I don't understand...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>You see, this is exactly what their Zarian neighbours, have been waiting for. They will turn the tide in our favour!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>But sire, the Zarians are not exactly fond of the empire either! They will not come to our aid...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Not willingly, but they will seize the opportunity to attack Kabiros once its fleet is busy engaging ours.</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>But sire, the Zarians may not be aware of this attack...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Nothing that a few accidentally leaked subspace broadcasts can't fix. Come on General, do I have to spell out everything to you?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>You are a genious sire! Once Kabiros is weakened, we can retaliate, and then take on Zarium too!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>There's hope for you after all...</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Newbie</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+          <Enemy>
+            <Id>Enemy1</Id>
+            <Colour>Blue</Colour>
+            <Difficulty>Easy</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Zarium</Name>
+            <Position>120 200</Position>
+            <Rotation>-20</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Kabiros</Name>
+            <Position>240 400</Position>
+            <Rotation>30</Rotation>
+            <Radius>40</Radius>
+            <Population>40</Population>
+            <Owner>Enemy1</Owner>
+          </Planet>
+          <Planet>
+            <Name>Jolf</Name>
+            <Position>360 600</Position>
+            <Rotation>-25</Rotation>
+            <Radius>35</Radius>
+            <Population>35</Population>
+            <Owner>Player</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>General, we need to colonsie the Orbis system quickly to keep our fleets running. This is an empty system so I expect you to handle it and let me enjoy a quiet game of nanogolf for a change!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>My humblest apologies sire...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>In the name of Zeenoo, what is it now?!?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>This system is not quite empty sire, the Kanalians have established a base on Orbis IV!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Sigh... I can see where this is going...</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>They have only recently started expanding beyond their home system but they are very aggressive! We need your guiding hand sire!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Fine fine I'll handle it. At least fill in for my nanogolf game and try to keep my average score up, or else.. pah.. why do I even bother with the threats anymore?</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Orbis I</Name>
+            <Position>140 600</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>60</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Orbis II</Name>
+            <Position>270 540</Position>
+            <Rotation>10</Rotation>
+            <Radius>45</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Orbis III</Name>
+            <Position>310 630</Position>
+            <Rotation>-15</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Orbis IV</Name>
+            <Position>320 210</Position>
+            <Rotation>-30</Rotation>
+            <Radius>40</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Orbis V</Name>
+            <Position>140 160</Position>
+            <Rotation>20</Rotation>
+            <Radius>35</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Orbis VI</Name>
+            <Position>220 250</Position>
+            <Rotation>-15</Rotation>
+            <Radius>40</Radius>
+            <Population>30</Population>
+            <Owner>None</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>The Kanalians shall pay dearly for their arrogance! We will take the battle to their home world!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, we have just established a foothold on one of their moons. Our manufacturing plants can build a sizable army but we will need some time...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>But! But! But what? Give the Kanalians time to prepare for a siege?? No General, we shall colonise their remaining moons and strike them down quickly, and mercilessly!!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Yes sire, the enemy will not expect such a cra.. I mean.. bold move!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>On with it then!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Kanalus IV</Name>
+            <Position>240 400</Position>
+            <Rotation>25</Rotation>
+            <Radius>50</Radius>
+            <Population>40</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Kanalus IVa</Name>
+            <Position>100 100</Position>
+            <Rotation>30</Rotation>
+            <Radius>15</Radius>
+            <Population>20</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Kanalus IVb</Name>
+            <Position>400 200</Position>
+            <Rotation>-35</Rotation>
+            <Radius>20</Radius>
+            <Population>0</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Kanalus IVc</Name>
+            <Position>350 600</Position>
+            <Rotation>-25</Rotation>
+            <Radius>18</Radius>
+            <Population>0</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Kanalus IVd</Name>
+            <Position>150 550</Position>
+            <Rotation>30</Rotation>
+            <Radius>22</Radius>
+            <Population>0</Population>
+            <Owner>None</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, what an overwhelming victory! We have wiped the Kanalians off the face of the galaxy!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Once again, my strategy was flawless!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed sire, I never had any doubt!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Sigh...</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Let's just change subject shall we? Do we have the scout report from the Xantac system?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Uuugh... yes Sire, there are several warring factions squabbling between themselves.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Good, then the dividing bit is done. We just have to do the conquering!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+          <Enemy>
+            <Id>Enemy1</Id>
+            <Colour>Blue</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+          <Enemy>
+            <Id>Enemy2</Id>
+            <Colour>Purple</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Xantac I</Name>
+            <Position>200 300</Position>
+            <Rotation>35</Rotation>
+            <Radius>25</Radius>
+            <Population>40</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac II</Name>
+            <Position>300 220</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>20</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac III</Name>
+            <Position>380 490</Position>
+            <Rotation>-35</Rotation>
+            <Radius>40</Radius>
+            <Population>30</Population>
+            <Owner>Enemy1</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac IV</Name>
+            <Position>190 580</Position>
+            <Rotation>-25</Rotation>
+            <Radius>45</Radius>
+            <Population>20</Population>
+            <Owner>Enemy2</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac V</Name>
+            <Position>90 140</Position>
+            <Rotation>-30</Rotation>
+            <Radius>40</Radius>
+            <Population>35</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac VI</Name>
+            <Position>350 140</Position>
+            <Rotation>-20</Rotation>
+            <Radius>40</Radius>
+            <Population>30</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac VII</Name>
+            <Position>420 650</Position>
+            <Rotation>20</Rotation>
+            <Radius>45</Radius>
+            <Population>35</Population>
+            <Owner>Enemy1</Owner>
+          </Planet>
+          <Planet>
+            <Name>Xantac VIII</Name>
+            <Position>100 680</Position>
+            <Rotation>30</Rotation>
+            <Radius>50</Radius>
+            <Population>30</Population>
+            <Owner>Enemy2</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Excellent! When three zorgs fight over a kzach, the fourth one runs away with it, as the old saying goes!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed my lord! Once again, we succeed against impossible od...</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Praise me harder, oh yes! Why did you stop!? What is it General?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, we just received a fleet-class distress signal.. the whole fleet.. mysteriosly wiped out near Mochbi IV during a training mission!!!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Except for our outpost on Mochbi II that system is deserted, yes?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The imperial centre for intelligence has detected an anomaly near the planet. It seems to be drawing near our outpost!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Hmmm.. an unseen enemy! Very well general, deploy all the flight-ready vessels and meet the target head on!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Purple</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>true</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Mochbi I</Name>
+            <Position>150 150</Position>
+            <Rotation>40</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Mochbi II</Name>
+            <Position>400 190</Position>
+            <Rotation>-20</Rotation>
+            <Radius>40</Radius>
+            <Population>20</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Mochbi III</Name>
+            <Position>100 450</Position>
+            <Rotation>25</Rotation>
+            <Radius>25</Radius>
+            <Population>25</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Mochbi IV</Name>
+            <Position>230 690</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>10</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Mochbi V</Name>
+            <Position>350 530</Position>
+            <Rotation>-35</Rotation>
+            <Radius>40</Radius>
+            <Population>25</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Mochbi VI</Name>
+            <Position>250 90</Position>
+            <Rotation>-10</Rotation>
+            <Radius>40</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>General, what do you make of this?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The enemy eludes us sire! They must be using some kind of cloaking technology! We have detected movement in the Varen system but it is impossible to know where they will strike next!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Cowardly plasma-eating induction pipe scum! It doesn't matter.. we will take them out mercilessly!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed most exhalted leader! All our fleets are in orbit around Varen III ready for deployment.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Very well, let's see what they can do now that they lost the edge of surprise!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Purple</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>true</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Varen I</Name>
+            <Position>140 600</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>20</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Varen II</Name>
+            <Position>270 710</Position>
+            <Rotation>10</Rotation>
+            <Radius>45</Radius>
+            <Population>15</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Varen III</Name>
+            <Position>340 210</Position>
+            <Rotation>-30</Rotation>
+            <Radius>40</Radius>
+            <Population>25</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Varen IV</Name>
+            <Position>410 630</Position>
+            <Rotation>-15</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Varen V</Name>
+            <Position>140 140</Position>
+            <Rotation>20</Rotation>
+            <Radius>35</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Varen VI</Name>
+            <Position>220 250</Position>
+            <Rotation>-15</Rotation>
+            <Radius>40</Radius>
+            <Population>30</Population>
+            <Owner>None</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Victory is ours once again sire, and we have captured the enemy captain!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Indeed! I trust you have got him in a "talkative mood"...</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed my lord, he is "happily" chattering away thanks to our "persuasive" techniques.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>And what knowledge has he "spontaneously" shared with us?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>He "spontaneously" warned us about an imminent attack on our solar array in Lumia VII's orbit.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Ok enough with the finger quoting crap, let's anticipate their attack!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Purple</Colour>
+            <Difficulty>Extreme</Difficulty>
+            <Cloaked>true</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Lumia VII</Name>
+            <Position>350 650</Position>
+            <Rotation>30</Rotation>
+            <Radius>45</Radius>
+            <Population>20</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          
+          <Planet>
+            <Name>Energy Converter 1-1</Name>
+            <Position>240 400</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 1-2</Name>
+            <Position>280 360</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 1-3</Name>
+            <Position>320 320</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 1-4</Name>
+            <Position>360 280</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 1-5</Name>
+            <Position>400 240</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Energy Converter 2-1</Name>
+            <Position>200 360</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 2-2</Name>
+            <Position>240 320</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 2-3</Name>
+            <Position>280 280</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 2-4</Name>
+            <Position>320 240</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 2-5</Name>
+            <Position>360 200</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Energy Converter 3-1</Name>
+            <Position>160 320</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 3-2</Name>
+            <Position>200 280</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 3-3</Name>
+            <Position>240 240</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 3-4</Name>
+            <Position>280 200</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 3-5</Name>
+            <Position>320 160</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Energy Converter 4-1</Name>
+            <Position>120 280</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 4-2</Name>
+            <Position>160 240</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 4-3</Name>
+            <Position>200 200</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 4-4</Name>
+            <Position>240 160</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 4-5</Name>
+            <Position>280 120</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Energy Converter 5-1</Name>
+            <Position>80 240</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 5-2</Name>
+            <Position>120 200</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 5-3</Name>
+            <Position>160 160</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 5-4</Name>
+            <Position>200 120</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Energy Converter 5-5</Name>
+            <Position>240 80</Position>
+            <Rotation>50</Rotation>
+            <Radius>15</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>The solar array is safely back in our hands sire.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Very well, but have you determined the origin of this cloaked army?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Not yet my lord, but that seems to be the last of them according to our intel centre.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Good, we can take a well deserved break from our galactic conquest endeavours!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>I am afraid that's not quite the case my lord. There seems to be some unrest in the mining colonies within the Bydean asteroid belt. Our policing forces are under threat of attack.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Ungrateful worms! We need to put them in their place.</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Normal</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>BYMC 01</Name>
+            <Position>100 130</Position>
+            <Velocity>30 -20</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>50</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 02</Name>
+            <Position>250 110</Position>
+            <Velocity>20 -20</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 03</Name>
+            <Position>320 160</Position>
+            <Velocity>20 -10</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          
+          <Planet>
+            <Name>BYMC 04</Name>
+            <Position>120 220</Position>
+            <Velocity>50 -10</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 05</Name>
+            <Position>260 200</Position>
+            <Velocity>-10 -50</Velocity>
+            <Rotation>-20</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 06</Name>
+            <Position>390 210</Position>
+            <Velocity>20 40</Velocity>
+            <Rotation>-30</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 07</Name>
+            <Position>130 330</Position>
+            <Velocity>-30 20</Velocity>
+            <Rotation>-40</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 08</Name>
+            <Position>220 370</Position>
+            <Velocity>50 10</Velocity>
+            <Rotation>-30</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 09</Name>
+            <Position>380 350</Position>
+            <Velocity>30 40</Velocity>
+            <Rotation>-20</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 10</Name>
+            <Position>90 510</Position>
+            <Velocity>-30 30</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 11</Name>
+            <Position>210 460</Position>
+            <Velocity>20 20</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 12</Name>
+            <Position>340 490</Position>
+            <Velocity>-40 -20</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 13</Name>
+            <Position>130 620</Position>
+            <Velocity>40 20</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 14</Name>
+            <Position>220 640</Position>
+            <Velocity>-20 30</Velocity>
+            <Rotation>40</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 15</Name>
+            <Position>310 630</Position>
+            <Velocity>10 50</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 16</Name>
+            <Position>100 740</Position>
+            <Velocity>-40 -10</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 17</Name>
+            <Position>210 730</Position>
+            <Velocity>20 -30</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 18</Name>
+            <Position>380 750</Position>
+            <Velocity>-20 40</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Sire, the rest of the miners have retreated to the collection facility on Bydos V!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Then advance through the asteroid field and take them down General!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Consider it done sire!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>BYMC 01</Name>
+            <Position>100 130</Position>
+            <Velocity>30 -20</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>50</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 02</Name>
+            <Position>250 110</Position>
+            <Velocity>20 -20</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 03</Name>
+            <Position>320 160</Position>
+            <Velocity>20 -10</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>Player</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 04</Name>
+            <Position>120 220</Position>
+            <Velocity>50 -10</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 05</Name>
+            <Position>260 200</Position>
+            <Velocity>-10 -50</Velocity>
+            <Rotation>-20</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 06</Name>
+            <Position>390 210</Position>
+            <Velocity>20 40</Velocity>
+            <Rotation>-30</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 07</Name>
+            <Position>130 330</Position>
+            <Velocity>-30 20</Velocity>
+            <Rotation>-40</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 08</Name>
+            <Position>220 370</Position>
+            <Velocity>50 10</Velocity>
+            <Rotation>-30</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 09</Name>
+            <Position>380 350</Position>
+            <Velocity>30 40</Velocity>
+            <Rotation>-20</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 10</Name>
+            <Position>90 510</Position>
+            <Velocity>-30 30</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 11</Name>
+            <Position>210 460</Position>
+            <Velocity>20 20</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 12</Name>
+            <Position>340 490</Position>
+            <Velocity>-40 -20</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 13</Name>
+            <Position>130 620</Position>
+            <Velocity>40 20</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 14</Name>
+            <Position>220 600</Position>
+            <Velocity>-20 30</Velocity>
+            <Rotation>40</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 15</Name>
+            <Position>310 630</Position>
+            <Velocity>10 50</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>20</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>BYMC 16</Name>
+            <Position>100 740</Position>
+            <Velocity>-40 -10</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 17</Name>
+            <Position>210 650</Position>
+            <Velocity>20 -30</Velocity>
+            <Rotation>10</Rotation>
+            <Radius>30</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>BYMC 18</Name>
+            <Position>380 750</Position>
+            <Velocity>-20 40</Velocity>
+            <Rotation>-10</Rotation>
+            <Radius>25</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Bydos V</Name>
+            <Position>240 750</Position>
+            <Rotation>10</Rotation>
+            <Radius>60</Radius>
+            <Population>5</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Well Soggy, looks like we have reached a compromise with the Bydean miners. We have our mines back and the miners get permanent retirement! Bwahahahaha!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Indeed Sire! Bwahahahahahahahaha!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>General, seriously, it's not that funny...</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>Apologies my lord. If I may change the subject, our dealings with the Zarians and Kabirians aren't over yet. They seem to be fighting over the Tleto system with some other faction.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Time to get into the fray once again then!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Red</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+          <Enemy>
+            <Id>Enemy1</Id>
+            <Colour>Blue</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+          <Enemy>
+            <Id>Enemy2</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Hard</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Tleto I</Name>
+            <Position>130 110</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>25</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto II</Name>
+            <Position>260 120</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto III</Name>
+            <Position>370 100</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          
+          <Planet>
+            <Name>Tleto IV</Name>
+            <Position>140 210</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>20</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto V</Name>
+            <Position>210 220</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto VI</Name>
+            <Position>400 230</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Tleto VII</Name>
+            <Position>110 360</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto VIII</Name>
+            <Position>220 370</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto IX</Name>
+            <Position>370 380</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>20</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Tleto X</Name>
+            <Position>100 510</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>20</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XI</Name>
+            <Position>230 500</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>Enemy1</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XII</Name>
+            <Position>410 490</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Tleto XIII</Name>
+            <Position>140 590</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>5</Population>
+            <Owner>Enemy1</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XIV</Name>
+            <Position>270 610</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XV</Name>
+            <Position>380 620</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>Enemy2</Owner>
+          </Planet>
+
+          <Planet>
+            <Name>Tleto XVI</Name>
+            <Position>150 700</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>20</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XVII</Name>
+            <Position>210 720</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Tleto XVIII</Name>
+            <Position>390 710</Position>
+            <Velocity>0 0</Velocity>
+            <Rotation>30</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>Enemy2</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+      <Level>
+        <Cutscene>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Have we discovered anything on our new enemy General?</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>According to Zarian and Kabirian data they call themselves the Acolytes of Zardon. They are a cult obsessed with the ancient Zardonian galactic empire with grand delusions to establish it once again.</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>What nonsense! Everybody knows ours is the one true galactic empire!</Text>
+          </Line>
+          <Line>
+            <CharacterId>General</CharacterId>
+            <Text>We shall enlighten them sire!</Text>
+          </Line>
+          <Line>
+            <CharacterId>Overlord</CharacterId>
+            <Text>Indeed General, with a planet-class plasma cannon! Bwahahahaha!</Text>
+          </Line>
+        </Cutscene>
+        <Enemies>
+          <Enemy>
+            <Id>Enemy0</Id>
+            <Colour>Brown</Colour>
+            <Difficulty>Extreme</Difficulty>
+            <Cloaked>false</Cloaked>
+          </Enemy>
+        </Enemies>
+        <Planets>
+          <Planet>
+            <Name>Neras I</Name>
+            <Position>130 610</Position>
+            <Rotation>30</Rotation>
+            <Radius>35</Radius>
+            <Population>25</Population>
+            <Owner>Enemy0</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras II</Name>
+            <Position>280 700</Position>
+            <Rotation>10</Rotation>
+            <Radius>45</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras III</Name>
+            <Position>330 220</Position>
+            <Rotation>-30</Rotation>
+            <Radius>40</Radius>
+            <Population>25</Population>
+            <Owner>Player</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras IV</Name>
+            <Position>430 640</Position>
+            <Rotation>-15</Rotation>
+            <Radius>30</Radius>
+            <Population>10</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras V</Name>
+            <Position>150 150</Position>
+            <Rotation>20</Rotation>
+            <Radius>35</Radius>
+            <Population>5</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras VI</Name>
+            <Position>200 220</Position>
+            <Rotation>-15</Rotation>
+            <Radius>40</Radius>
+            <Population>30</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras VII</Name>
+            <Position>290 120</Position>
+            <Rotation>15</Rotation>
+            <Radius>35</Radius>
+            <Population>20</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras VIII</Name>
+            <Position>260 400</Position>
+            <Rotation>20</Rotation>
+            <Radius>30</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+          <Planet>
+            <Name>Neras IX</Name>
+            <Position>350 450</Position>
+            <Rotation>-20</Rotation>
+            <Radius>25</Radius>
+            <Population>15</Population>
+            <Owner>None</Owner>
+          </Planet>
+        </Planets>
+      </Level>
+    </Levels>
+  </Asset>
+</XnaContent>

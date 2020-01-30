@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticOverlord", "GalacticOverlord\GalacticOverlord\GalacticOverlord.csproj", "{E83C54FF-20C2-49BF-B958-3407A4F96185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticOverlordContent", "GalacticOverlord\GalacticOverlordContent\GalacticOverlordContent.contentproj", "{37979FA7-2CDB-44EC-9CE6-DFDF673AB88A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{4C051815-A241-4671-AA9B-89124316B732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{EA58E9A4-EF9D-4C8C-98E1-A849CAF51CD9}"
+	ProjectSection(SolutionItems) = preProject
+		GalacticOverlord\Assets\Graphics\DifficultySelector.pdn = GalacticOverlord\Assets\Graphics\DifficultySelector.pdn
+		GalacticOverlord\Assets\Graphics\HEMIHEAD.TTF = GalacticOverlord\Assets\Graphics\HEMIHEAD.TTF
+		GalacticOverlord\Assets\Graphics\Ranks.pdn = GalacticOverlord\Assets\Graphics\Ranks.pdn
+		GalacticOverlord\Assets\Graphics\ShipLarge.png = GalacticOverlord\Assets\Graphics\ShipLarge.png
+		GalacticOverlord\Assets\Graphics\Title.pdn = GalacticOverlord\Assets\Graphics\Title.pdn
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audio", "Audio", "{51579DE5-BCCF-431A-BF94-940260E7552A}"
+	ProjectSection(SolutionItems) = preProject
+		GalacticOverlord\Assets\Audio\Title.psy = GalacticOverlord\Assets\Audio\Title.psy
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticOverlordPipeline", "GalacticOverlordPipeline\GalacticOverlordPipeline.csproj", "{E29E3D51-EAD2-4E15-89A3-9E348D897B35}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release AdDuplex|Windows Phone = Release AdDuplex|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release AdDuplex|Windows Phone.ActiveCfg = Release AdDuplex|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release AdDuplex|Windows Phone.Build.0 = Release AdDuplex|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release AdDuplex|Windows Phone.Deploy.0 = Release AdDuplex|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{E83C54FF-20C2-49BF-B958-3407A4F96185}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{37979FA7-2CDB-44EC-9CE6-DFDF673AB88A}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{37979FA7-2CDB-44EC-9CE6-DFDF673AB88A}.Release AdDuplex|Windows Phone.ActiveCfg = Release|Windows Phone
+		{37979FA7-2CDB-44EC-9CE6-DFDF673AB88A}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Release AdDuplex|Windows Phone.ActiveCfg = Release|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Release AdDuplex|Windows Phone.Build.0 = Release|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{E29E3D51-EAD2-4E15-89A3-9E348D897B35}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA58E9A4-EF9D-4C8C-98E1-A849CAF51CD9} = {4C051815-A241-4671-AA9B-89124316B732}
+		{51579DE5-BCCF-431A-BF94-940260E7552A} = {4C051815-A241-4671-AA9B-89124316B732}
+	EndGlobalSection
+EndGlobal
