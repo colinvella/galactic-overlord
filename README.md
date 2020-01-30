@@ -14,6 +14,9 @@ The player can compete either against one or more computer opponents or against 
 ## Multiplayer Mode
 Challenge another human opponent over a common WIFI connection!
 
+## Review Video
+https://youtu.be/oztzKriIXRo
+
 ## Screenshots
 ![Title screen](/docs/01.jpg?raw=true "Title screen")
 ![Demo mode](/docs/02.jpg?raw=true "Demo mode")
